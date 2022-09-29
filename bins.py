@@ -129,6 +129,7 @@ while True:
     if e == 12:
             qk = "10/29"            
     gg = f"cvc:{k}"     
-    op = f"MM/AA:{qk}"      
+    op = f"MM/AA:{qk}"  
+    xc =f"VISA:{c}{d}{v}"    
     time.sleep(vy)
-    print(c, d, v,gg, op)
+    print(xc, gg, op)
